@@ -1,4 +1,4 @@
-// Estrutura while (ENQUANTO
+// Estrutura while (ENQUANTO)
 let contador = 0 //definir antes do laço
 
 while (condition) { //condição

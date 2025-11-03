@@ -11,7 +11,9 @@
         <div id="textoinicio">
             <h1>Javascript</h1>
             <p>Página dedicada a estudos da linguagem JS</p>
-            <a href="vscode://file/C:/Users/SeuUsuario/meu_projeto/index.html">nnn</a>
+            <div id="btninicio">
+                <a href="vscode://file/C:/Users/luisav10/Javascript/index.html">Ver os códigos</a>
+            </div>
         </div>
         <div id="imginicio">
             <img src="https://64.media.tumblr.com/ce50edc8dd6a986134a8d854ab654b36/dcd649a34a6b6c41-ca/s540x810/1055b698b683024ccdfd46c4a50259008ef95b8a.gifv" alt="">
@@ -21,21 +23,21 @@
 
         <div class="blocoAula">
             <div id="ifelse" class="nomeAula">
-                <h2>If else</h2>
+                <h2>If else <span>(se/senão)</span></h2>
                 <p>A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.</p>
                 <div class="exemplo">
-                <h3>Exemplos de uso</h3>
-                <p>O if-else é usado para fazer o seu programa reagir de forma diferente a situações diferentes.</p>
-                <ul>
-                    <li>Tomar decisões: O programa escolhe o que fazer. Por exemplo, "SE chover, levo guarda-chuva; SENÃO, não levo."</li>
-                    <li>Mudar o que acontece: A página muda o jeito de agir. "SE o usuário clicar, mostro algo; SENÃO, escondo."</li>
-                    <li>Comandar a ordem: Define qual pedaço do código vai funcionar. Isso faz a página se adaptar e responder bem a tudo (responsividade).</li>
-                </ul>   
-                </div>
-                
+                    <h3>Exemplos de uso</h3>
+                    <p>O if-else é usado para fazer o seu programa reagir de forma diferente a situações diferentes.</p>
+                    <ul>
+                        <li>Tomar decisões: O programa escolhe o que fazer. Por exemplo, "SE chover, levo guarda-chuva; SENÃO, não levo."</li>
+                        <li>Mudar o que acontece: A página muda o jeito de agir. "SE o usuário clicar, mostro algo; SENÃO, escondo."</li>
+                        <li>Comandar a ordem: Define qual pedaço do código vai funcionar. Isso faz a página se adaptar e responder bem a tudo (responsividade).</li>
+                    </ul>   
+                </div> 
             </div>
+
             <div id="switchcase" class="nomeAula">
-                <h2>Switch case</h2>
+                <h2>Switch case <span>(escolha/caso)</span></h2>
                 <p>O switch é ideal quando você tem uma única expressão (como o valor de uma variável) e quer executar diferentes blocos de código com base em múltiplos valores possíveis dessa expressão. É uma alternativa mais limpa e legível ao if-else aninhado para cenários específicos.</p>
                 <div class="exemplo">
                     <h3>Exemplos de uso</h3>
@@ -45,30 +47,66 @@
                         <li>Dias da Semana: Mostrar o nome do dia com base em um número (0 a 6).</li>
                         <li>Opções de Menu: Ativar funções distintas para "Home", "Perfil" ou "Configurações".</li>
                     </ul>
-                    </div>
-
+                </div>
             </div>
         </div>
 
         <div class="blocoAula" >
             <div id="for" class="nomeAula">
-                <h2>For</h2>
-                <p>bla</p>
+                <h2>For <span>(para)</span></h2>
+                <p>É uma estrutura de controle de loop usada para executar um bloco de código repetidamente. É ideal para quando você sabe quantas vezes quer que o loop seja executado, como ao percorrer elementos de um array.</p>
+                <div class="exemplo">
+                    <h3>Exemplos de uso</h3>
+                    <p>Use sempre que a sua aplicação precisar fazer a mesma coisa várias vezes, de forma controlada e com um ponto de partida e chegada.</p>
+                    <ul>
+                        <li>Exibir Produtos: Percorrer um array de produtos para mostrar o nome e preço de cada um em um e-commerce.</li>
+                        <li>Contagem Regressiva: Fazer um timer de 10 a 0.</li>
+                        <li>Animar Elemento: Mudar a posição de um objeto na tela 50 vezes para simular um pequeno movimento.</li>
+                    </ul>
+                </div>
             </div>
             <div id="while" class="nomeAula">
-                <h2>While</h2>
-                <p>bla</p>
+                <h2>While <span>(enquanto)</span></h2>
+                <p>A estrutura while em JavaScript executa um bloco de código repetidamente enquanto uma condição for verdadeira. Ela é útil quando o número exato de iterações é desconhecido, mas o critério de parada é conhecido.</p>
+                <div class="exemplo">
+                    <h3>Exemplos de uso</h3>
+                    <p>Use o while quando precisar repetir uma ação enquanto uma condição for verdadeira, sem saber quantas vezes isso acontecerá. Ele continua executando o código até que a condição mude.</p>
+                    <ul>
+                        <li>Esperar Entrada: Repetir a pergunta ao usuário até ele digitar uma senha correta.</li>
+                        <li>Rolagem Infinita: Carregar mais conteúdo na página enquanto o usuário rola para baixo.</li>
+                        <li>Processar Fila: Tirar itens de uma lista um por um até que a lista esteja vazia.</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <div class="blocoAula" >
             <div id="array" class="nomeAula">
                 <h2>Array</h2>
-                <p>bla</p>
+                <p>Um array em JavaScript é uma estrutura de dados que armazena múltiplos valores em uma única variável, organizados como uma lista. Cada item no array é acessado por um índice numérico que começa em 0.</p>
+                <div class="exemplo">
+                    <h3>Exemplos de uso</h3>
+                    <p>Arrays são como listas organizadas que guardam vários itens em uma única "caixa". Você os usa sempre que precisa armazenar uma coleção de informações.</p>
+                    <ul>
+                        <li>Imagens da Galeria: Manter a sequência de URLs de fotos para exibir em uma galeria.</li>
+                        <li>Lista de Compras: Guardar todos os itens que o usuário adicionou ao carrinho.</li>
+                        <li>Nomes de Alunos: Armazenar uma coleção de nomes de estudantes em uma turma.</li>
+                    </ul>
+                </div>
             </div>
+
             <div id="function" class="nomeAula">
                 <h2>Function</h2>
-                <p>bla</p>
+                <p>Funções são blocos de código que realizam tarefas específicas e podem ser reutilizadas ao serem chamadas pelo seu nome seguido por parênteses, o que as torna fundamentais para organizar e reutilizar o código.</p>
+                <div class="exemplo">
+                    <h3>Exemplos de uso</h3>
+                    <p>Use-as para organizar e reutilizar código, evitando repetições. Funções deixam seu programa mais limpo e fácil de entender.</p>
+                    <ul>
+                        <li>Mudar Tema: Uma função que alterna entre o tema claro e escuro da página ao ser clicada.</li>
+                        <li>Validar Formulário: Uma função que checa se todos os campos de um formulário foram preenchidos corretamente.</li>
+                        <li>Calcular Média: Uma função que recebe notas e retorna a média final de um aluno.</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
